@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root
+{
+    font-size: 16px;
+}
+
+*
+{
+    
+    
+    font-family: 'Roboto', sans-serif; 
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#logo
+{
+    width: 5rem;
+    transition: 0.2s;
+}
+
+header
+{
+    background-color: #0c0c0c;
+    font-size: 1.5rem;
+}
+
+.list
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul
+{
+    cursor: context-menu;
+    color: white;
+    transition: 0.5s;
+}
+
+#text:hover
+{
+    color: #6c5ce7;
+    transform: scale(1.1);
+    
+    transition: 0.5s;
+}
+
+
+
+#logo:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.container-body
+{
+    margin-top: 12rem;
+    color: white;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 5rem;
+}
+
+h5
+{
+    color: #9b8ff0;
+    
+    margin-top: -3%;
+    font-size: 2rem;
+}
+
+.projects
+{
+    margin-top: 28rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.line
+{
+    border: #c1b9f4 solid;
+    width: 50%;
+
+    border-radius: 1rem;
+}
+
+#project
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+body::-webkit-scrollbar
+{
+    width: 0.45rem;
+}
+body::-webkit-scrollbar-track
+{
+    background: #121217;
+}
+body::-webkit-scrollbar-thumb
+{
+    background: #22222d;
+}
+
+body
+{
+    background-color: #0c0c0c;
+}
+
+footer
+{
+    
+    color:white;
+    text-align: center;
+    background-color: #161616;
+    opacity: 0.2;
+}
+
+#cop
+{
+    padding-top: 1.5rem;
+}
+
+.foot
+{
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+}
