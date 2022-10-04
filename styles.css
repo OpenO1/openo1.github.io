@@ -39,6 +39,8 @@ header
 
 ul
 {
+    margin: 0;
+    padding: 0;
     cursor: context-menu;
     color: white;
     transition: 0.5s;
@@ -144,4 +146,39 @@ footer
     height: 4rem;
     margin: 0;
     padding: 0;
+}
+
+.containerimg img
+{
+    width: 16rem;
+}
+
+#altemoless
+{
+    font-size: 1.5rem;
+}
+
+#discord
+{ 
+    color: #6c5ce7;
+}
+
+#alpha
+{
+    width: 12rem;
+}
+
+#alphatxt
+{
+    padding-top: 2rem;
+}
+
+#altalpha
+{
+    font-size: 1.5rem;
+}
+
+#alphalink
+{ 
+    color: #6c5ce7;
 }
