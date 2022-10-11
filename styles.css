@@ -37,23 +37,43 @@ header
     justify-content: space-around;
 }
 
-ul
+.head
 {
     margin: 0;
+    padding: 0;
+    background-color: #17171f;
+    
+    
+}
+
+ul
+{
+    
+    margin: 0;
+    margin-left: -2rem;
     padding: 0;
     cursor: context-menu;
     color: white;
     transition: 0.5s;
 }
 
-#text:hover
+#text
 {
-    color: #6c5ce7;
-    transform: scale(1.1);
+    /*color: #6c5ce7;*/
+    color:#6a7fdd;
+    /*transform: scale(1.1);*/
     
     transition: 0.5s;
 }
 
+#text:hover
+{
+    color:#a9b5ec;
+    transform: scale(1.1);
+    
+    transition: 0.5s;
+
+}
 
 
 #logo:hover
@@ -64,9 +84,11 @@ ul
 
 .container-body
 {
-    margin-top: 12rem;
+    /*margin-top: 12rem;*/
+    margin-top: 20rem;
     color: white;
     text-align: center;
+    
 }
 
 h1
@@ -76,7 +98,8 @@ h1
 
 h5
 {
-    color: #9b8ff0;
+    /*color: #9b8ff0;*/
+    color: #798bdf;
     
     margin-top: -3%;
     font-size: 2rem;
@@ -97,7 +120,8 @@ h5
 
 .line
 {
-    border: #c1b9f4 solid;
+    /*border: #c1b9f4 solid;*/
+    border: #798bdf solid;
     width: 50%;
 
     border-radius: 1rem;
@@ -124,7 +148,9 @@ body::-webkit-scrollbar-thumb
 
 body
 {
-    background-color: #0c0c0c;
+    /*background-color: #0c0c0c;*/
+    background-color: #16161d;
+    background-color: #14141a;
 }
 
 footer
@@ -161,6 +187,7 @@ footer
 #discord
 { 
     color: #6c5ce7;
+    color: #6a7fdd;
 }
 
 #alpha
@@ -181,4 +208,48 @@ footer
 #alphalink
 { 
     color: #6c5ce7;
+    color: #6a7fdd;
 }
+
+#aboutus
+{
+    color: #798bdf;
+    /*margin-top: 32rem;*/
+}
+
+#paboutus
+{
+    font-size: 1.5rem;
+}
+
+.bgcontainer
+{
+    height: 20rem;
+    margin-top: 32rem;
+    background-color: #15151c;
+}
+
+.pbgcontainer
+{
+    
+    margin-top: 32rem;
+    background-color: #15151c;
+}
+
+#logoopeno
+{
+    height: 30rem;
+    position: absolute;
+    display: flex;
+    margin: auto; 
+}
+
+.logocenter
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
