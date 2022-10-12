@@ -253,3 +253,26 @@ footer
     justify-content: center;
 }
 
+/*.container-body
+{
+    background-repeat: no-repeat;
+    background-image: url("bar.png");
+    background-image: url("tree.png");
+}*/
+
+.container-openo1 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+#bar , #tree
+{
+    width: 18rem;
+}
+
