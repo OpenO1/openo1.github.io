@@ -85,7 +85,7 @@ ul
 .container-body
 {
     /*margin-top: 12rem;*/
-    margin-top: 20rem;
+    margin-top: 15rem;
     color: white;
     text-align: center;
     
@@ -276,3 +276,109 @@ footer
     width: 18rem;
 }
 
+#cards
+{
+    padding-top: 3rem;
+    width: 25rem;
+    transition: 0.2s;
+}
+
+.cards-
+{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cards:hover
+{
+    padding-top: 1rem;
+    transition: 0.2s;
+}
+
+.members-card
+{
+    padding-top: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#circle
+{
+    width: 10rem;
+    border-radius: 100%;
+}
+#bot-text
+{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+#subot-text
+{
+    margin-top: -1.5rem;
+    opacity: 0.3;
+}
+
+.people
+{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.placement
+{
+    gap: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#zeya-github
+{
+    transition: 0.2s;
+}
+
+#zeya-github:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#lou-github
+{
+    transition: 0.2s;
+}
+
+#lou-github:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#ysm-github
+{
+    transition: 0.2s;
+}
+
+#ysm-github:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
