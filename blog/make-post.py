@@ -12,6 +12,13 @@ if author == "Your Local Musk":
     pdp = "ysm-pfp.jpg"
 
 contenu = str(input("Contenu (Passer une ligne: <br/> eg: Salut <br/> à tous!): "))
+enter = True
+while enter:
+    short_desc = str(input("Description courte (- de 95 caractères): "))
+    if short_desc > 95:
+        print("invalid.", short_desc)
+    elif short_desc <= 95:
+        enter = False
 
 sym = '"'
 print(f"Ajouter des images à des endroits précis en éditant le fichier {post_title}.html avec la balise <img id={sym}pic{sym} src={sym}image.ext{sym} />")
@@ -23,6 +30,13 @@ with open(f'{post_title}.html', 'a') as fi:
     <html>
         <head>
             <meta charset="utf-8" />
+            
+            <meta content="{article_title}" property="og:title" />
+            <meta content="{short_desc}" property="og:description" />
+            <meta content="https://openo1.github.io/blog/{post_title}" property="og:url" />
+            <meta content="{pdp}.jpg" property="og:image" />
+            <meta content="#FFFFFF" data-react-helmet="true" name="theme-color" />
+
             <link rel="stylesheet" href="post.css" />
             <link rel="icon" type="image/x-icon" href="openo1logo.png">
 
