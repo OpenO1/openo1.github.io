@@ -15,10 +15,10 @@ contenu = str(input("Contenu (Passer une ligne: <br/> eg: Salut <br/> à tous!):
 enter = True
 while enter:
     short_desc = str(input("Description courte (- de 95 caractères): "))
-    short_desc = len(short_desc)
-    if short_desc > 95:
+    
+    if len(short_desc) > 95:
         print("invalid.", short_desc)
-    elif short_desc <= 95:
+    elif len(short_desc) <= 95:
         enter = False
 
 sym = '"'
