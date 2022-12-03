@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root
+{
+    font-size: 16px;
+}
+
+*
+{
+    
+    color: /*white*/ black;
+    font-family: 'Roboto', sans-serif;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    /*background-color: #14141a;*/
+}
+
+body::-webkit-scrollbar
+{
+    width: 0.45rem;
+}
+body::-webkit-scrollbar-track
+{
+    background: #121217;
+}
+body::-webkit-scrollbar-thumb
+{
+    background: #22222d;
+}
+
+#logo
+{
+    width: 10rem;
+    transition: 0.2s;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#text {
+    font-size: 4rem;
+    color:#6a7fdd;
+}
+
+#pdp {
+    border-radius: 100%;
+    width: 8rem;
+}
+
+.container-head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.post {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.8rem;
+}
+
+#username {
+    color: #a0afee;
+}
+
