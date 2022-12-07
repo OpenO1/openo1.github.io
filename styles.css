@@ -372,6 +372,17 @@ footer
     transition: 0.2s;
 }
 
+#sim-github
+{
+    transition: 0.2s;
+}
+
+#sim-github:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 #ysm-github
 {
     transition: 0.2s;
