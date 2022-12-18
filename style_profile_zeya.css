@@ -1,0 +1,173 @@
+
+:root {
+    font-size: 16px;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #0e0f10;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 1098px) {
+    #verified {
+        width: 1rem;
+    }
+
+    * {
+        text-align: center;
+    }
+
+
+    #zeya-banner {
+        background-image: url("zeya-banner.gif");
+        height: 200px;
+        width: 20rem;
+        border-radius: 0.5rem;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #zeya-pfp {
+        background-image: url("zeya-pfp.gif");
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-position: center;
+        background-size: cover;
+        outline: 4px solid #0e0f10;
+        margin-top: -3.5rem;
+    }
+
+    .container-body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #desc {
+        opacity: 0.3;
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+
+    .infos {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: -2rem;
+    }
+
+    .link {
+        text-align: center;
+        background-color: #0e0f10;
+        border: none;
+        width: 40%;
+        color: white;
+        padding: 15px 64px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px;
+        border-radius: 6px;
+        outline: 1px solid #36393e;
+        transition: 0.2s;
+        margin-bottom: 0.7rem;
+        margin-left: -2rem;
+    }
+
+    .link:hover {
+        transform: scale(1.1);
+        color: rgb(199, 199, 255);
+    }
+}
+
+@media (min-width: 1098px) {
+
+    .container-body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #zeya-banner {
+        background-image: url("zeya-banner.gif");
+        width: 1000px;
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0.5rem;
+    }
+
+    #zeya-pfp {
+        margin-top: -3.5rem;
+        background-image: url("zeya-pfp.gif");
+        width: 128px;
+        height: 128px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 100%;
+        outline: 4px solid #0e0f10;
+    }
+
+    #pseudo {
+        text-align: center;
+    }
+
+    #verified {
+        width: 1rem;
+    }
+
+
+    .infos {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .link {
+        text-align: center;
+        background-color: #0e0f10;
+        border: none;
+        width: 20%;
+        color: white;
+        padding: 15px 64px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px;
+        border-radius: 6px;
+        outline: 1px solid #36393e;
+        transition: 0.2s;
+        margin-bottom: 0.7rem;
+    }
+
+    .link:hover {
+        transform: scale(1.1);
+        color: rgb(199, 199, 255);
+    }
+
+    #desc {
+        margin-bottom: -1rem;
+        margin-top: -1rem;
+        font-size: 1rem;
+        opacity: 0.3;
+    }
+}
+
