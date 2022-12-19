@@ -9,14 +9,11 @@
     
     color: /*white*/ black;
     font-family: 'Roboto', sans-serif;
-
     text-decoration: none;
     list-style-type: none;
 }
 
-body {
-    /*background-color: #14141a;*/
-}
+
 
 body::-webkit-scrollbar
 {
@@ -65,9 +62,15 @@ body::-webkit-scrollbar-thumb
     align-items: center;
 }
 
+h4 {
+    margin-bottom: -0.5rem;
+}
 
-.post {
+h1 {
     margin-top: 6rem;
+}
+.post {
+    margin-top: 0rem;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -80,4 +83,5 @@ body::-webkit-scrollbar-thumb
 #username {
     color: #a0afee;
 }
+
 
